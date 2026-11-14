@@ -12,7 +12,7 @@ pipeline {
         stage('Build & Execute Script') {
             steps {
                 echo 'Running Jenkinsfiles...'
-                bat 'python Jenkinsfiles'
+                bat 'python test.py'
             }
         }
 
